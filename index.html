@@ -8,7 +8,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -23,26 +23,73 @@
     <div class="header"><img class="logo" src="spmLogo.png" alt="7 Potato More Logo" />
     <h1>Quilt Designs</h1></div>
 
-    <ul class="links">
-      <li class="link-item"><a>What's New</a></li>
-      <li class="link-item"><a>Quilts</a></li>
-      <li class="link-item"><a>Patterns</a></li>
-      <li class="link-item"><a>Contact</a></li>
-      <li class="link-item"><a>About</a></li>
-    </ul>
+  <nav class="navbar navbar-default spm-navbar" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="links"><a href="#">What's New</a></li>
+        <li class="links"><a href="#">About</a></li>
+        <li class="links"><a href="#">Contact</a></li>
+
+        <li class="links" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quilts <span class="caret"></span></a>
+          <ul class="dropdown-menu spm-dropdown" role="menu">
+            <li><a href="#">Patterns</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Gallery</a></li>
+            <li class="divider"></li>
+            <li><a href="#">For Sale</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="slideshow">
-<div class=".col-md-6">
-<img class="quilt-photo" src="maple.png" alt="Maple Leaves Quilt" />
+
+  <div class="col-md-4">
+    <img class="quilt-photo" src="maple.png" alt="Maple Leaves Quilt" />
+    <h2>Maple Leaves</h2>
+    <p class="quilt-paragraph">
+    Cupcake ipsum dolor. Sit amet jelly caramels brownie cheesecake. Danish toffee marzipan fruitcake gingerbread candy canes biscuit chocolate pie. Jelly cookie chocolate cake cheesecake gummies bear claw caramels pastry.
+    </p>
+  </div>
+
+  <div class="col-md-4">
+    <img class="quilt-photo" src="turkey.png" alt="Maple Leaves Quilt" />
+    <h2>Tom Turkey</h2>
+    <p class="quilt-paragraph">
+    Cupcake ipsum dolor. Sit amet jelly caramels brownie cheesecake. Danish toffee marzipan fruitcake gingerbread candy canes biscuit chocolate pie. Jelly cookie chocolate cake cheesecake gummies bear claw caramels pastry.
+    </p>
+  </div>
+
+  <div class="col-md-4">
+    <img class="quilt-photo" src="starburst.png" alt="Maple Leaves Quilt" />
+    <h2>Starburst Topper</h2>
+    <p class="quilt-paragraph">
+    Cupcake ipsum dolor. Sit amet jelly caramels brownie cheesecake. Danish toffee marzipan fruitcake gingerbread candy canes biscuit chocolate pie. Jelly cookie chocolate cake cheesecake gummies bear claw caramels pastry.
+    </p>
+  </div>
+
 </div>
 
-<div class=".col-md-6">
 
-<p class="quilt-description">
-Cupcake ipsum dolor. Sit amet caramels chupa chups cotton candy fruitcake gummies cotton candy apple pie. Sweet marshmallow halvah. Marshmallow donut dessert I love pastry chupa chups. Tootsie roll I love liquorice I love halvah I love soufflé croissant. Dragée sweet cookie jelly-o tart I love brownie. Jujubes chocolate I love. Tiramisu macaroon cheesecake liquorice pastry chocolate. Marshmallow gingerbread brownie. Croissant I love bonbon I love candy canes powder unerdwear.com I love.
-</p>
-<div class=".col-md-6">
-</div>
 
 <p class="footer">Let's be friends! Link to Facebook</p>
 

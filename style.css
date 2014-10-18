@@ -83,13 +83,22 @@ h2{
   font-family: 'Special Elite', cursive;
   padding: 10px 0 10px 0;
 }
+.spm-navbar{
+background:linen;
+border-top: 2px dashed #000;
+border-bottom: 2px dashed #000;
+}
+
+.spm-dropdown{
+background:linen;
+}
+
 .links{
   line-height:40px;
   background-color:linen;
   font-family: 'Special Elite', cursive;
   text-align:center;
-  border-top: 2px dashed #000;
-  border-bottom: 2px dashed #000;
+
 }
 .link-item {
   display:inline-block;
@@ -107,26 +116,27 @@ h2{
 }
 
 .slideshow {
-  height:300px;
+  height:450px;
   width:100%;
-background-color:wheat;
+  background-color:wheat;
 
 }
 .quilt-photo {
   height:250px;
-  margin:25px;
-  float:left;
+  margin:25px 57px 0 57px;
+
 }
 .quilt-title {
-  margin:15px 0 0 25px;
-  float:left;
   color:black;
   font-size:25px;
   font-family: 'Special Elite', cursive;
 }
 
-.quilt-description {
-  margin:20px 25px ;
+.quilt-paragraph {
+  color:black;
+  font-size:14px;
+  font-family: georgia;
+  margin-left:25px;
 }
 
 .footer {
