@@ -49,7 +49,7 @@ input, select { vertical-align: middle; }
 
 /* Write your CSS styles here */
 body {
-background: url('burlapBG.jpg') repeat fixed center center / cover;
+background:wheat;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 }
 .header{
   width:100%;
-  height:200px;
+  height:180px;
   background-color:#383838;
   padding:10px;
 }
@@ -67,7 +67,6 @@ p {
   margin-right: auto;
   margin:10px auto;
   display:block;
-  color:black;
 }
 h1{
   color:linen;
@@ -83,10 +82,13 @@ h2{
   font-family: 'Special Elite', cursive;
   padding: 10px 0 10px 0;
 }
+
+/* Index */
 .spm-navbar{
 background:linen;
 border-top: 2px dashed #000;
 border-bottom: 2px dashed #000;
+margin:0px;
 }
 
 .spm-dropdown{
@@ -100,27 +102,38 @@ background:linen;
   text-align:center;
 
 }
-.link-item {
-  display:inline-block;
-  margin: 5px 120px 0 0;
-  font-size:20px;
-}
 
-.link-item a{
+.links a{
   color:#383838;
 }
 
-.link-item a:hover {
+.links a:hover {
     color: firebrick;
     text-decoration:none;
 }
 
-.slideshow {
-  height:450px;
+.banner {
+  height:150px;
   width:100%;
-  background-color:wheat;
-
+background: url('burlapBG.jpg') repeat fixed center center / cover;
 }
+
+.greeting {
+  color:black;
+  text-align:center;
+  font-size:25px;
+  font-family: 'Special Elite', cursive;
+  padding: 20px 0 10px 0;
+}
+
+.greeting-big {
+  color:black;
+  text-align:center;
+  font-size:50px;
+  font-family: 'Special Elite', cursive;
+  padding: 20px 0 10px 0;
+}
+
 .quilt-photo {
   height:250px;
   margin:25px 57px 0 57px;
@@ -139,9 +152,15 @@ background:linen;
   margin-left:25px;
 }
 
-.footer {
+/* About */
+.about-photo {
+  height:250px;
+  margin:25px 0 0 57px;
+}
+
+.about-paragraph {
   color:black;
-  font-family: 'Special Elite', cursive;
-  text-align:center;
-  padding:10px 0 0 0;
+  font-size:20px;
+  font-family: georgia;
+  padding-left:10px;
 }
