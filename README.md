@@ -1,1 +1,1 @@
-[ ![Codeship Status for lorenmdavis/lorenmdavis.com](https://codeship.io/projects/c84ba010-1f76-0132-0fa4-12d822a0fe28/status)](https://codeship.io/projects/35720)
+[ ![Codeship Status for lorenmdavis/7potatomorequilts.com](https://codeship.io/projects/59335ea0-3933-0132-bd39-323ac9d2f255/status?branch=master)](https://codeship.io/projects/42173)
