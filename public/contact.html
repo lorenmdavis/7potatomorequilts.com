@@ -21,22 +21,14 @@
 
 <body>
 
-
-
-
 <div>
     <div class="header">
-
       <div class="social">
       <a class="facebook" href="www.google.com"></a>
       <a class="pin" href="www.google.com"></a>
       </div>
-
     <img class="logo" src="images/spmLogo.png" alt="7 Potato More Logo" />
-</div>
-
-
-
+    </div>
 
 <!-- Begin Navigation Bar-->
 <nav class="navbar navbar-default spm-navbar" role="navigation">
@@ -70,33 +62,42 @@
   </div>
 </nav>
 <!--End Nav Bar -->
-<div class="col-md-12">
-<div class="banner">
-<p class="greeting">Welcome to</p>
-<p class="greeting-big">Seven Potato More Quilts!</p>
-</div>
-</div>
 
 <div>
+    <form class="email-form">
 
-  <div class="col-md-4 quilt-block">
-    <a href="#"><img class="quilt-photo" src="images/maple.png" alt="Maple Leaves Quilt" /></a>
-    <h2>Maple Leaves</h2>
-  </div>
+    <p class="email-title">
+    Say Hello! Shoot us a quick email.
+    </p>
 
-  <div class="col-md-4 quilt-block">
-    <img class="quilt-photo" src="images/turkey.png" alt="Maple Leaves Quilt" />
-    <h2>Tom's Turkey</h2>
-  </div>
+      <div class="email-contact">
+      <label >Name:
+      <input type="text" name="name">
+      </label>
+      <br />
+      </div>
 
-  <div class="col-md-4 quilt-block">
-    <img class="quilt-photo" src="images/starburst.png" alt="Maple Leaves Quilt" />
-    <h2>Starburst Topper</h2>
-  </div>
+      <div class="email-contact">
+      <label>Email:
+      <input type="text" name="email">
+      </label>
+      <br />
+      </div>
 
+      <div class="email-message">
+      <textarea class="textarea">
+      Message Here
+      </textarea>
+      <br/>
+      </div>
+
+      <div class="email-submit">
+      <input type="submit" name="subscribe" value="Submit" />
+      </div>
+
+    </form>
 </div>
 
-
-  </div>
+</div>
 </body>
 </html>

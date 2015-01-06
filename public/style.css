@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
 /* Cross Browser Compatability CSS */
 /**
  * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
@@ -48,6 +50,9 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
+
+
+
 body {
 background:wheat;
 }
@@ -68,8 +73,9 @@ p {
   background-color:#383838;
   padding:20px 0;
 }
+
 .logo{
-  width: 500px;
+  width: 50%;
   margin:0 auto;
   display:block;
 }
@@ -161,14 +167,26 @@ a.link:hover {
   color:black;
   text-align:center;
   font-size:50px;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Amatic SC', cursive;
   padding: 5px 0;
+}
+.quilt-block {
+
+  width:30%;
+  display:block;
+  margin:20px 1% 0;
+  background-color:white;
+  box-shadow: -2px 2px 5px 1px gray;
+  padding:10px;
+}
+.quilt-block:hover {
+  box-shadow: -3px 3px 5px 1px dimGray;
 }
 
 .quilt-photo {
   height:250px;
   display: block;
-  margin:20px auto 0;
+  margin:0 auto;
 
 }
 .quilt-title {
@@ -226,4 +244,35 @@ a:link-list {color: green;}
 a.link-list:hover {
     color:red;
     text-decoration:none;
+}
+
+.email-form {
+  margin: 0 auto;
+  width:50%;
+}
+
+.email-title {
+  color:black;
+  font-size:20px;
+  font-family: georgia;
+  padding:10px;
+  text-align:center;
+}
+.email-contact{
+  width:225px;
+  margin:0 auto;
+  padding:5px;
+  border:none;
+}
+
+.textarea{
+   width:100%;
+   height:100px;
+   border:none;
+}
+
+.email-submit{
+  width:47px;
+  margin:0 auto;
+  border:none;
 }
