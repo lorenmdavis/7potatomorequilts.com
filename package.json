@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/lorenmdavis/lorenmdavis.com",
   "dependencies": {
+    "handlebars": "^3.0.1",
     "hapi": "^8.4.0"
   }
 }
