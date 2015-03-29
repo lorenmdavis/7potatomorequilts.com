@@ -1,15 +1,19 @@
-var static = require('node-static');
+var Hapi = require('hapi');
 
-//
-// Create a node-static server instance to serve the './public' folder
-//
-var file = new static.Server('./public');
+var server = new Hapi.Server();
+server.connection({ port: process.env.PORT || 8080 });
 
-require('http').createServer(function (request, response) {
-    request.addListener('end', function () {
-        //
-        // Serve files!
-        //
-        file.serve(request, response);
-    }).resume();
-}).listen(process.env.PORT || 8080);
+server.route({
+    path: "/{path*}",
+    method: "GET",
+    handler: {
+        directory: {
+            path: "./public",
+            listing: false
+        }
+    }
+});
+
+server.start(function () {
+    console.log('Server running at:', server.info.uri);
+});
