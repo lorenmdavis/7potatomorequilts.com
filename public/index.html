@@ -1,102 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <title>SPM</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>7 Potato More Quilts</title>
-
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-</head>
 
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 100
+    });
+  });
+</script>
+
+</head>
 <body>
 
+<!--Top of Page-->
+<div class="page-header"></div>
+<div class='header-dash'></div>
 
+<!--bootly nav-->
 
-
-<div>
-    <div class="header">
-
-      <div class="social">
-      <a class="facebook" href="www.google.com"></a>
-      <a class="pin" href="www.google.com"></a>
-      </div>
-
-    <img class="logo" src="images/spmLogo.png" alt="7 Potato More Logo" />
-</div>
-
-
-
-
-<!-- Begin Navigation Bar-->
-<nav class="navbar navbar-default spm-navbar" role="navigation">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse spm-nav" role="navigation">
+  <div class="container nav-container">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+        <a href="index.html"><img class='spm-logo'src='images/spmLogo.jpg'/></a>
     </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="links"><a href="index.html">What's New</a></li>
-        <li class="links"><a href="about.html">About</a></li>
-        <li class="links"><a href="contact.html">Contact</a></li>
-
-        <li class="links" class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quilts <span class="caret"></span></a>
-          <ul class="dropdown-menu spm-dropdown" role="menu">
-            <li><a href="#">Patterns</a></li>
-            <li class="divider"></li>
-            <li><a href="#">For Sale</a></li>
-          </ul>
-        </li>
-      </ul>
-        </li>
+      <ul class="nav navbar-nav links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="patterns.html">Patterns</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<!--End Nav Bar -->
-<div class="col-md-12">
-<div class="banner">
-<p class="greeting">Welcome to</p>
-<p class="greeting-big">Seven Potato More Quilts!</p>
+<!--end bootly nav-->
+<!--End Top of Page-->
+
+<!--Carousel-->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+
+    <div class="item active carousel-01"><!-- class of active since it's the first item -->
+      <div class="carousel-caption">
+        <div class="pebble-title">Pebble Beach</div>
+      </div>
+    </div>
+
+    <div class="item carousel-02">
+      <div class="carousel-caption">
+        <p>Two</p>
+      </div>
+    </div>
+
+    <div class="item carousel-03">
+      <div class="carousel-caption">
+        <p>Three</p>
+      </div>
+    </div>
+
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left next-gradient" href="#this-carousel-id" data-slide="prev"></a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next"></a>
 </div>
-</div>
+<!--End Carosel-->
 
-<div>
+<!--Start Jumbotron
+<div class="jumbotron slideshow"></div>
+End Jumbotron-->
 
-  <div class="col-md-4 quilt-block">
-    <a href="#"><img class="quilt-photo" src="images/maple.png" alt="Maple Leaves Quilt" /></a>
-    <h2>Maple Leaves</h2>
+<div class='row'>
+  <div class='col-md-12'>
+    <p class="section-title">Newest Patterns</p>
   </div>
-
-  <div class="col-md-4 quilt-block">
-    <img class="quilt-photo" src="images/turkey.png" alt="Maple Leaves Quilt" />
-    <h2>Tom's Turkey</h2>
-  </div>
-
-  <div class="col-md-4 quilt-block">
-    <img class="quilt-photo" src="images/starburst.png" alt="Maple Leaves Quilt" />
-    <h2>Starburst Topper</h2>
-  </div>
-
 </div>
 
 
+ <div class="row quilt-blocks">
+  <div class="col-md-4">
+    <a class="thumbnail">
+      <p class="quilt-title">Maple Leaves</p>
+      <img class="quilt-photo" src="images/quilts/maple.png" alt="Maple Leaves Quilt">
+    </a>
   </div>
+  <div class="col-md-4">
+    <a class="thumbnail">
+      <p class="quilt-title">Starburst Quilt</p>
+      <img class="quilt-photo" src="images/quilts/starburst.png" alt="Moustiers Sainte Marie">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a class="thumbnail">
+      <p class="quilt-title">Tom Turkey</p>
+      <img class="quilt-photo" src="images/quilts/turkey.png" alt="Dresden Turkey Quilt">
+    </a>
+  </div>
+</div>
+
+<!--Footer-->
+<footer>
+
+   <div class="row footer">
+     <div class="col-md-12">
+       <a class="ft-link" href='index.html'>Home</a>
+       <a class="ft-link" href='patterns.html'>Patterns</a>
+       <a class="ft-link" href='about.html'>About</a>
+       <a class="ft-link" href='contact.html'>Contact</a>
+       <div class="pin"><a href="#"></a></div>
+       <div class="fb"><a href="#"></a></div>
+     </div>
+   </div>
+
+  <div class="row footer ft-copyright">
+    <div class="col-md-12">
+      <p>©2015 Karen Wittmeyer</p>
+    </div>
+  </div>
+
+</footer>
+<!--End Footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

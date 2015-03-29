@@ -1,103 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <title>Contact</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>7 Potato More Quilts</title>
-
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
+<!--Top of Page-->
+<div class="page-header"></div>
+<div class='header-dash'></div>
 
-<div>
-    <div class="header">
-      <div class="social">
-      <a class="facebook" href="www.google.com"></a>
-      <a class="pin" href="www.google.com"></a>
-      </div>
-    <img class="logo" src="images/spmLogo.png" alt="7 Potato More Logo" />
-    </div>
+<!--bootly nav-->
 
-<!-- Begin Navigation Bar-->
-<nav class="navbar navbar-default spm-navbar" role="navigation">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse spm-nav" role="navigation">
+  <div class="container nav-container">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+        <a href="index.html"><img class='spm-logo'src='images/spmLogo.jpg'/></a>
     </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="links"><a href="index.html">What's New</a></li>
-        <li class="links"><a href="about.html">About</a></li>
-        <li class="links"><a href="contact.html">Contact</a></li>
-
-        <li class="links" class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quilts <span class="caret"></span></a>
-          <ul class="dropdown-menu spm-dropdown" role="menu">
-            <li><a href="#">Patterns</a></li>
-            <li class="divider"></li>
-            <li><a href="#">For Sale</a></li>
-          </ul>
-        </li>
-      </ul>
-        </li>
+      <ul class="nav navbar-nav links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="patterns.html">Patterns</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<!--End Nav Bar -->
+<!--end bootly nav-->
+<!--End Top of Page-->
 
-<div>
-    <form class="email-form">
 
-    <p class="email-title">
-    Say Hello! Shoot us a quick email.
-    </p>
+ <div class="row quilt-blocks">
+   <div class="col-md-5 col-md-offset-1 spm-contact">
 
-      <div class="email-contact">
-      <label >Name:
-      <input type="text" name="name">
-      </label>
-      <br />
+      <div class="thumbnail">
+          <p class="contact-title">Email
+          <p>Contact Karen with a question
+          <p><a>karen@sevenpotatomorequilts.com</a>
       </div>
 
-      <div class="email-contact">
-      <label>Email:
-      <input type="text" name="email">
-      </label>
-      <br />
+      <div class="thumbnail">
+        <p class="contact-title">Social Media
+        <p>Follow me on
+        <p><a>Facebook</a> or <a>Pinterest</a>!
+
       </div>
 
-      <div class="email-message">
-      <textarea class="textarea">
-      Message Here
-      </textarea>
-      <br/>
-      </div>
+   </div>
 
-      <div class="email-submit">
-      <input type="submit" name="subscribe" value="Submit" />
-      </div>
+   <div class="col-md-5 spm-contact hidden-xs">
+      <div class="thumbnail contact-image"></div>
+   </div>
 
-    </form>
 </div>
 
-</div>
+<!--Footer-->
+<footer>
+
+   <div class="row footer">
+     <div class="col-md-12">
+       <a class="ft-link" href='index.html'>Home</a>
+       <a class="ft-link" href='patterns.html'>Patterns</a>
+       <a class="ft-link" href='about.html'>About</a>
+       <a class="ft-link" href='contact.html'>Contact</a>
+       <div class="pin"><a href="#"></a></div>
+       <div class="fb"><a href="#"></a></div>
+     </div>
+   </div>
+
+  <div class="row footer ft-copyright">
+    <div class="col-md-12">
+      <p>©2015 Karen Wittmeyer</p>
+    </div>
+  </div>
+
+</footer>
+<!--End Footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
