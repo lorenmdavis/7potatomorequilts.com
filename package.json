@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/lorenmdavis/lorenmdavis.com",
   "dependencies": {
-    "node-static": "^0.7.5"
+    "handlebars": "^3.0.1",
+    "hapi": "^8.4.0"
   }
 }

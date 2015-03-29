@@ -1,0 +1,17 @@
+{
+    "school-house": {
+        "title": "Red Schoolhouse",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "15x11",
+        "images": [
+            {
+                "full": "/images/quilts/schoolhouse.png",
+                "thumb": "/images/quilts/schoolhouseThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverSchoolhouse.jpg",
+                "thumb": "/images/quilts/covers/coverSchoolhouseThumb.png"
+            }
+        ]
+    }
+}

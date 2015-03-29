@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Indiv Quilt Page</title>
+    <title>{{title}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="jquery.lightbox.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/jquery.lightbox.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <!--Top of Page-->
@@ -24,15 +24,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="index.html"><img class='spm-logo'src='images/spmLogo.jpg'/></a>
+        <a href="index.html"><img class='spm-logo'src='/images/spmLogo.jpg'/></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="patterns.html">Patterns</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/patterns.html">Patterns</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -44,20 +44,20 @@
 <div class="row ind-row">
   <div class="col-md-7 col-md-offset-1 ind">
     <div class="ind-description">
-      <p class="ind-pattern-title">Red Schoolhouse
+        <p class="ind-pattern-title">{{title}}
       <hr class="dashed-line">
 
-      <p>Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.<br>
+      <p>{{description}}<br>
 
       <hr class="dashed-line">
 
       <div>
         <h2 class="contents-header">Pattern Contents</h2>
         <ul class="pattern-contents">
-        <li>Measurements/Requirements for the quilt
-        <li>Cutting Details
-        <li>Block Assembly Instructions
-        <li>Quilt Assembly Diagrams
+            <li>Measurements/Requirements for the quilt: {{measurements}}</li>
+            <li>Cutting Details:
+            <li>Block Assembly Instructions:
+            <li>Quilt Assembly Diagrams:
         </ul>
       </div>
 
@@ -72,15 +72,13 @@
       <div class='col-md-3 ind'>
         <div class="lightbox">
           <ul>
+              {{#each images}}
               <li>
-              <a class="lightbox-full" href="images/quilts/schoolhouse.png">
-              <img class="lightbox-thumb" src="images/quilts/schoolhouseThumb.png"/>
-              </a>
-
-              <li>
-              <a class="lightbox-full" href="images/quilts/covers/coverSchoolhouse.jpg">
-              <img class="lightbox-thumb-cover" src="images/quilts/covers/coverSchoolhouseThumb.png"/>
-              </a>
+                  <a class="lightbox-full" href="{{this.full}}">
+                      <img class="lightbox-thumb" src="{{this.thumb}}"/>
+                  </a>
+              </li>
+              {{/each}}
           </ul>
         </div>
       </div>
@@ -116,9 +114,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox.min.js"></script>
+<script type="text/javascript" src="/js/scripts.js"></script>
 
 </body>
 </html>
