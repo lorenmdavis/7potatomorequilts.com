@@ -9,8 +9,13 @@ server.route({
     method: 'GET',
     path: '/quilts/{name*}',
     handler: function (request, reply) {
-        debugger;
-        reply.view('index', Quilts[request.params.name]);
+        var quilt = Quilts[request.params.name];
+
+        if(quilt) {
+            return reply.view('index', quilt);
+        }
+
+        return reply('No quilt found.').code(404);
     }
 });
 
