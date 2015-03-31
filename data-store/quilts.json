@@ -13,5 +13,69 @@
                 "thumb": "/images/quilts/covers/coverSchoolhouseThumb.png"
             }
         ]
+    },
+
+    "hearts-ribbons": {
+        "title": "Hearts & Ribbons",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "15x11",
+        "images": [
+            {
+                "full": "/images/quilts/hearts.png",
+                "thumb": "/images/quilts/heartsThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverHeartsRibbons.jpg",
+                "thumb": "/images/quilts/covers/coverHeartsRibbonsThumb.jpg"
+            }
+        ]
+    },
+
+    "sweetheart-basket": {
+        "title": "Sweetheart Basket",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "15x11",
+        "images": [
+            {
+                "full": "/images/quilts/sweetheart.png",
+                "thumb": "/images/quilts/sweetheartThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverSweetheart.jpg",
+                "thumb": "/images/quilts/covers/coverSweetheartThumb.jpg"
+            }
+        ]
+    },
+
+    "luck-of-the-irish": {
+        "title": "Luck of the Irish",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "15x11",
+        "images": [
+            {
+                "full": "/images/quilts/irish.png",
+                "thumb": "/images/quilts/irishThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverIrish.jpg",
+                "thumb": "/images/quilts/covers/coverIrishThumb.jpg"
+            }
+        ]
+    },
+
+    "clover-crossing": {
+        "title": "Clover Crossing",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "15x11",
+        "images": [
+            {
+                "full": "/images/quilts/cloverCrossing.png",
+                "thumb": "/images/quilts/cloverCrossingThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverCloverCrossing.jpg",
+                "thumb": "/images/quilts/covers/coverCloverCrossingThumb.jpg"
+            }
+        ]
     }
 }
