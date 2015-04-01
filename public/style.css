@@ -225,7 +225,7 @@ background-size: cover;
 height:300px;
 }
 
-/*Jumbotron*/
+/*Jumbotron
 .jumbotron {
   background-image:url('https://s-media-cache-ak0.pinimg.com/736x/32/a3/4c/32a34cd1b7878782a014f7def4a58e0e.jpg');
   background-position: 15% 42%;
@@ -234,7 +234,7 @@ height:300px;
 }
 .slideshow {
   margin:20px 0 10px 0;
-}
+}*/
 
 /*Quilt Thumbnails*/
 .section-title{
@@ -267,6 +267,9 @@ a.thumbnail:hover{
   font-size:12px;
   text-align:center;
 }
+#sweetheart-basket {
+  letter-spacing: -0.5px;
+}
 .quilt-photo {
   width:80%;
   padding-bottom:10px;
@@ -294,7 +297,6 @@ a.thumbnail:hover{
  letter-spacing:2px;
  color:tan;
 }
-
 /*Social Media*/
 .pin {
 background: url('images/pinterest.png') 0 0 no-repeat;
@@ -317,7 +319,7 @@ display:inline-block;
   background-position: 0 -40px;
 }
 
-/*Pattern.html*/
+/*Patterns.HTML*/
 .spm-gallery.thumbnail{
   text-decoration:none;
   border:dashed 2px tan;
@@ -353,14 +355,12 @@ display:inline-block;
   padding:10px;
   text-align:center;
 }
-
 .contact-title{
   font-family: 'Crete Round', serif;
   color:darkRed;
   font-size:28px;
   text-align:center;
 }
-
 .spm-contact .contact-image {
   background-image:url('images/chevron.jpg');
   background-size: cover;
@@ -375,7 +375,7 @@ display:inline-block;
   margin:10px;
   background-color:rgba(255,255,255,0.5);
   text-align:left;
-  height:400px;
+
 }
 .about-title{
   font-family: 'Crete Round', serif;
@@ -435,6 +435,7 @@ display:inline-block;
   width:225px;
   display:block;
   margin:0 auto 15px;
+  padding:3px;
 }
 .lightbox-full{
   height:300px;
@@ -444,5 +445,5 @@ display:inline-block;
 	list-style: none;
 }
 .lightbox a:hover img {
-  box-shadow: 1px 1px 1px #AB9B7D;
+  box-shadow:  0 0 1em #AB9B7D;
 }
