@@ -167,65 +167,95 @@ a:hover{
 .navbar-inverse .navbar-toggle:focus{
   background-color:tan;
 }
+.navbar-toggle{
+  margin:10px;
+}
 
 /*Carousel*/
+.carousel-control {
+  height:300px;
+}
+.arrow-previous{
+  background: url('images/arrowPrevious.png') no-repeat;
+  background-size: 100%;
+  height:300px;
+  width:25px;
+  position: absolute;
+  top:130px;
+
+  margin-left:10px;
+}
+.arrow-next{
+  background: url('images/arrowNext.png') no-repeat;
+  background-size: 100%;
+  height:300px;
+  width:25px;
+  position: absolute;
+  top:130px;
+  right:0;
+  margin-right:10px;
+}
 .carousel-01 {
   height:300px;
   width:100%;
-  background-color:#4A2800;
+  background-color:tan;
+  background: url('images/pebbleBeachQuilt.png') no-repeat;
+  background-size: 100%;
 }
-.carousel-01-img {
+.slide-01-img {
   background: url('images/pebbleBeach.jpg') no-repeat;
   background-size: 100%;
-  background-position: 100% 70%;
+  background-position: 100% 80%;
   height:300px;
   width:100%;
   background-color:#4A2800;
 }
 .pebble-text {
-  margin-top:10px;
+  margin:15px 0;
+  text-align:center;
+  color:white;
+  text-shadow: 1px 1px 2px black;
 }
 .pebble-title {
-  font-size:36px;
-  font-size:5vw;
-  width:100%;
-  height:100%;
-  color:white;
-  margin:0 auto;
-  text-align:center;
+  font:bold 56px 'Amatic SC', serif;
+  font-size:7vw;
 }
-.pebble-by {
-  font:24px 'Amatic SC', serif;
-  font-size:5vw;
-  width:100%;
-  height:100%;
+#pg-link {
+  font:18px 'Crete Round', serif;
+  font-size:4vw;
   color:white;
-  margin:0 auto;
-  text-align:center;
+  text-shadow: 1px 1px 2px black;
 }
-.pebble-link {
-  font:24px 'Crete Round', serif;
-  font-size:5vw;
-  width:100%;
-  height:100%;
+#pg-link,a{
   color:white;
-  margin:0 auto;
-  text-align:center;
+}
+#pg-link:hover{
+  color:white;
+  text-shadow: 1px 1px 2px darkRed;
+}
+.pebble-feature {
+  font:11px 'Crete Round', serif;
+  font-size:3vw;
+  letter-spacing:1px;
+  color:black;
+  text-shadow:none;
 }
 .carousel-02 {
-  background-image:url('https://s-media-cache-ak0.pinimg.com/736x/32/a3/4c/32a34cd1b7878782a014f7def4a58e0e.jpg');
-  background-position: 15% 42%;
-  background-size: cover;
-  height:300px;
+background: url('images/quiltFence02.jpg') no-repeat;
+background-size: cover;
+background-position: top;
+height:300px;
+background-color:#4A2800;
 }
 .carousel-03 {
-background: url('images/carousel01.jpg') 0 0 no-repeat;
-background-position: 15% 42%;
+background: url('images/creamChevron.jpg') no-repeat;
 background-size: cover;
+background-position: top;
 height:300px;
+background-color:#4A2800;
 }
 
-/*Jumbotron
+/*Jumbotron*/
 .jumbotron {
   background-image:url('https://s-media-cache-ak0.pinimg.com/736x/32/a3/4c/32a34cd1b7878782a014f7def4a58e0e.jpg');
   background-position: 15% 42%;
@@ -234,7 +264,7 @@ height:300px;
 }
 .slideshow {
   margin:20px 0 10px 0;
-}*/
+}
 
 /*Quilt Thumbnails*/
 .section-title{
@@ -375,7 +405,7 @@ display:inline-block;
   margin:10px;
   background-color:rgba(255,255,255,0.5);
   text-align:left;
-
+  height:400px;
 }
 .about-title{
   font-family: 'Crete Round', serif;
