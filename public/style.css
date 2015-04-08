@@ -61,7 +61,7 @@ hr {
   border-top:dashed 2px black;
 }
 a{
-  color:darkRed;
+  color: darkRed;
 }
 a:hover{
   color:black;
@@ -168,7 +168,7 @@ a:hover{
   background-color:tan;
 }
 .navbar-toggle{
-  margin:10px;
+  margin:10px 0 10px 10px;
 }
 
 /*Carousel*/
@@ -182,7 +182,6 @@ a:hover{
   width:25px;
   position: absolute;
   top:130px;
-
   margin-left:10px;
 }
 .arrow-next{
@@ -225,10 +224,9 @@ a:hover{
   font-size:4vw;
   color:white;
   text-shadow: 1px 1px 2px black;
+  text-decoration:none;
 }
-#pg-link,a{
-  color:white;
-}
+
 #pg-link:hover{
   color:white;
   text-shadow: 1px 1px 2px darkRed;
@@ -243,7 +241,7 @@ a:hover{
 .carousel-02 {
 background: url('images/quiltFence02.jpg') no-repeat;
 background-size: cover;
-background-position: top;
+background-position: 0% 32%;
 height:300px;
 background-color:#4A2800;
 }
@@ -253,17 +251,6 @@ background-size: cover;
 background-position: top;
 height:300px;
 background-color:#4A2800;
-}
-
-/*Jumbotron*/
-.jumbotron {
-  background-image:url('https://s-media-cache-ak0.pinimg.com/736x/32/a3/4c/32a34cd1b7878782a014f7def4a58e0e.jpg');
-  background-position: 15% 42%;
-  background-size: cover;
-  height:225px;
-}
-.slideshow {
-  margin:20px 0 10px 0;
 }
 
 /*Quilt Thumbnails*/
