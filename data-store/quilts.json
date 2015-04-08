@@ -349,5 +349,21 @@
                 "thumb": "/images/quilts/covers/coverChevronThumb.jpg"
             }
         ]
+    },
+
+    "holidays": {
+        "title": "Home For The Holidays",
+        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "measurements": "52 x 46",
+        "images": [
+            {
+                "full": "/images/quilts/holiday.png",
+                "thumb": "/images/quilts/holidayThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverHoliday.jpg",
+                "thumb": "/images/quilts/covers/coverHolidayThumb.jpg"
+            }
+        ]
     }
 }
