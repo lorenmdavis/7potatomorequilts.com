@@ -1,7 +1,7 @@
 {
     "school-house": {
         "title": "Red Schoolhouse",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Red Schoolhouses is a small (35” x 35”) quilt with sharpened pencils framing the little red schoolhouses.",
         "measurements": "35 x 35",
         "images": [
             {
@@ -17,8 +17,8 @@
 
     "hearts-ribbons": {
         "title": "Hearts & Ribbons",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "15x11",
+        "description": "Hearts and Ribbons is a small (33” x 33”) quilt with ribbon twists around a cluster of multicolored hearts.",
+        "measurements": "33 x 33",
         "images": [
             {
                 "full": "/images/quilts/hearts.png",

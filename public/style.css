@@ -52,7 +52,7 @@ input, select { vertical-align: middle; }
 
 /* Write your CSS styles here */
 body {
- background:wheat;
+ background:#F5DEB3;
 }
 p{
   font-family: 'Crete Round', serif;
@@ -61,7 +61,7 @@ hr {
   border-top:dashed 2px black;
 }
 a{
-  color: darkRed;
+  color:#8B0000;
 }
 a:hover{
   color:black;
@@ -392,7 +392,7 @@ display:inline-block;
   margin:10px;
   background-color:rgba(255,255,255,0.5);
   text-align:left;
-  height:400px;
+  height:250px;
 }
 .about-title{
   font-family: 'Crete Round', serif;
