@@ -386,13 +386,14 @@ display:inline-block;
 }
 
 /*About Page*/
+
 .spm-about>.thumbnail{
   border:none;
   text-decoration:none;
-  margin:10px;
-  background-color:rgba(255,255,255,0.5);
   text-align:left;
-  height:250px;
+  margin:10px auto;
+  background-color:rgba(255,255,255,0.5);
+  width:100%;
 }
 .about-title{
   font-family: 'Crete Round', serif;
@@ -401,19 +402,26 @@ display:inline-block;
   text-align:center;
   border-bottom:dashed 2px tan;
 }
-.about-image-holder{
-  width:100%;
-}
-.spm-about>.about-image {
+.about-image {
   background-image:url('images/karen.jpg');
   background-size: cover;
-  height:400px;
-  width:400px;
-  margin:0 auto 20px;
+  width:300px;
+  height:300px;
+  margin:10px auto;
+  padding:10px;
+}
+.about-image-sewing {
+  background-image:url('images/karenSewing.png');
+  background-size: cover;
+  width:200px;
+  height:300px;
+  margin:10px auto;
+  padding:10px;
 }
 .about-text {
   margin:15px;
 }
+
 /*Individual Quilt Page*/
 .ind, .ind-row{
   border:none;

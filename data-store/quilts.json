@@ -33,8 +33,8 @@
 
     "sweetheart-basket": {
         "title": "Sweetheart Basket",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "15x11",
+        "description": "Sweetheart basket is a small (36” x 36”) quilt with a scalloped edge around baskets with pieced hearts & a hand appliquéd handle.",
+        "measurements": "36 x 36",
         "images": [
             {
                 "full": "/images/quilts/sweetheart.png",
@@ -48,9 +48,9 @@
     },
 
     "luck-of-the-irish": {
-        "title": "Luck of the Irish",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "15x11",
+        "title": "Luck of the Irish...Chain",
+        "description": "Luck of the Irish…Chain measures (33” x 33”) with nine-patch blocks (made from strips!) surrounding a four leaf clover.",
+        "measurements": "33 x 33",
         "images": [
             {
                 "full": "/images/quilts/irish.png",
@@ -65,8 +65,8 @@
 
     "clover-crossing": {
         "title": "Clover Crossing",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "15x11",
+        "description": "Clover Crossing features a variety of greens and browns that come together to make lucky four leaf clovers. ",
+        "measurements": "33 x 33",
         "images": [
             {
                 "full": "/images/quilts/cloverCrossing.png",
@@ -81,7 +81,7 @@
 
     "egg-basket": {
         "title": "Egg Basket",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Rail fence blocks weave a basket around colorful pieced eggs.",
         "measurements": "28 x 28",
         "images": [
             {
@@ -97,7 +97,7 @@
 
     "april-showers": {
         "title": "April Showers",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Umbrellas made from Dresden plate blades on a field of fat rain drops.",
         "measurements": "36 x 36",
         "images": [
             {
@@ -113,7 +113,7 @@
 
     "mayflowers": {
         "title": "May Flowers",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Flowers made from reproduction fabrics and muslin create a timeless topper.",
         "measurements": "30 x 30",
         "images": [
             {
@@ -129,7 +129,7 @@
 
     "picking-posies": {
         "title": "Picking Posies",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Pink posies with wool centers scattered on a light background. Requires a twister tool.",
         "measurements": "27 x 27",
         "images": [
             {
@@ -145,7 +145,7 @@
 
     "june-bloom": {
         "title": "June Bloom",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Lattice border winds around five purple morning glories.",
         "measurements": "36 x 36",
         "images": [
             {
@@ -161,7 +161,7 @@
 
     "black-tie": {
         "title": "Black Tie",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Bowtie blocks made from scrappy black, tan, and reds.",
         "measurements": "34 x 34",
         "images": [
             {
@@ -177,7 +177,7 @@
 
     "stars-and-stripes": {
         "title": "Stars And Stripes",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Red stripes, gold stars, and blue frames - perfect for any patriotic party.",
         "measurements": "32 x 32",
         "images": [
             {
@@ -193,7 +193,7 @@
 
     "sunflower": {
         "title": "Sunflowers",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Scrappy small sunflowers interlock around a large scrappy sunflower.",
         "measurements": "40 x 40",
         "images": [
             {
@@ -209,7 +209,7 @@
 
     "grape-basket": {
         "title": "Grape Basket",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "A variety of shirtings give this traditional block a fresh look.",
         "measurements": "34 x 34",
         "images": [
             {
@@ -225,7 +225,7 @@
 
     "starburst": {
         "title": "Starburst",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Wool appliques add charm to this little friendship star/Irish chain quilt.",
         "measurements": "23 x 23",
         "images": [
             {
@@ -240,8 +240,8 @@
     },
 
     "maple-leaves": {
-        "title": "Maple Leaves",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "title": "Maple Leaf Ragged",
+        "description": "Raw edge leaves give this a great textured finish...and is quicker than turned applique!",
         "measurements": "41 x 41",
         "images": [
             {
@@ -257,7 +257,7 @@
 
     "turkey": {
         "title": "Turkey Feathers",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "Turkey track blocks and wool turkeys with tail feathers made from Dresden plate blades.",
         "measurements": "42 x 42",
         "images": [
             {
@@ -273,7 +273,7 @@
 
     "snowflake": {
         "title": "Snowflake",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
+        "description": "A big snowy block made using 'partial' seams...no Y seams!",
         "measurements": "30 x 30",
         "images": [
             {
@@ -289,8 +289,8 @@
 
     "spring-runner": {
         "title": "Spring Runner",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "30 x 30",
+        "description": "Busy bees buzz the many flowers on this pieced runner.",
+        "measurements": "24 x 62",
         "images": [
             {
                 "full": "/images/quilts/springRunner.png",
@@ -305,8 +305,8 @@
 
     "summer-runner": {
         "title": "Summer Runner",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "30 x 30",
+        "description": "Fly a flag and get your neighborhood ready for the Fourth of July!",
+        "measurements": "24 x 60",
         "images": [
             {
                 "full": "/images/quilts/summerRunner.png",
@@ -321,8 +321,8 @@
 
     "fall-runner": {
         "title": "Fall Runner",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "30 x 30",
+        "description": "Pieced scarecrow guards the pumpkin patch surrounded by a picket fence. ",
+        "measurements": "28 x 64",
         "images": [
             {
                 "full": "/images/quilts/fallRunner.png",
@@ -337,8 +337,8 @@
 
     "chevrons": {
         "title": "Chevrons",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "30 x 30",
+        "description": "A layer cake (10 inch squares) lets you get right to your sewing machine with no cutting!",
+        "measurements": "52 x 52",
         "images": [
             {
                 "full": "/images/quilts/chevron.png",
@@ -353,8 +353,8 @@
 
     "holidays": {
         "title": "Home For The Holidays",
-        "description": "Quilt description here...Cupcake ipsum dolor. Sit amet macaroon candy ice cream tootsie roll donut. Oat cake sesame snaps danish. Gingerbread wafer jelly beans candy canes. Icing candy canes carrot cake jelly-o fruitcake liquorice powder candy. Chupa chups cheesecake cake cheesecake.",
-        "measurements": "52 x 46",
+        "description": "A cozy holiday home in a forest of trees.",
+        "measurements": "46 x 52",
         "images": [
             {
                 "full": "/images/quilts/holiday.png",
