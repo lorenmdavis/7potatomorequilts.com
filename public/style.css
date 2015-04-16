@@ -220,7 +220,7 @@ a:hover{
   font-size:7vw;
 }
 #pg-link {
-  font:18px 'Crete Round', serif;
+  font:16px 'Crete Round', serif;
   font-size:4vw;
   color:white;
   text-shadow: 1px 1px 2px black;
@@ -239,18 +239,31 @@ a:hover{
   text-shadow:none;
 }
 .carousel-02 {
-background: url('images/quiltFence02.jpg') no-repeat;
+background: url('images/carousel02.jpg') no-repeat;
 background-size: cover;
 background-position: 0% 32%;
 height:300px;
 background-color:#4A2800;
 }
 .carousel-03 {
-background: url('images/creamChevron.jpg') no-repeat;
+background: url('images/carousel03.jpg') no-repeat;
 background-size: cover;
 background-position: top;
 height:300px;
 background-color:#4A2800;
+}
+
+.carousel-caption {
+  font:14px 'Crete Round', serif;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+  text-decoration:none;
+  padding:0;
+}
+
+.carousel-caption :hover{
+  color:white;
+  text-shadow: 1px 1px 2px darkRed;
 }
 
 /*Quilt Thumbnails*/
