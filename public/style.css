@@ -239,22 +239,14 @@ a:hover{
   text-shadow:none;
 }
 .carousel-02 {
-<<<<<<< HEAD
 background: url('images/carousel02.jpg') no-repeat;
-=======
-background: url('images/logCabinFence.jpg') no-repeat;
->>>>>>> origin/master
 background-size: cover;
 background-position: 0% 32%;
 height:300px;
 background-color:#4A2800;
 }
 .carousel-03 {
-<<<<<<< HEAD
 background: url('images/carousel03.jpg') no-repeat;
-=======
-background: url('images/antPicnicGrass.jpg') no-repeat;
->>>>>>> origin/master
 background-size: cover;
 background-position: top;
 height:300px;
