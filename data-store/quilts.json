@@ -365,5 +365,101 @@
                 "thumb": "/images/quilts/covers/coverHolidayThumb.jpg"
             }
         ]
+    },
+
+    "may-baskets": {
+        "title": "May Baskets",
+        "description": "Flowers spill over the edge of the may baskets.",
+        "measurements": "38 x 38",
+        "images": [
+            {
+                "full": "/images/quilts/mayBaskets.png",
+                "thumb": "/images/quilts/mayBasketsThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverMayBaskets.jpg",
+                "thumb": "/images/quilts/covers/coverMayBasketsThumb.jpg"
+            }
+        ]
+    },
+
+    "set-sail": {
+        "title": "Set Sail",
+        "description": "The sails and flags are folded and stitched so they can catch a breeze.",
+        "measurements": "27 x 40",
+        "images": [
+            {
+                "full": "/images/quilts/setSail.png",
+                "thumb": "/images/quilts/setSailThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverSetSail.jpg",
+                "thumb": "/images/quilts/covers/coverSetSailThumb.jpg"
+            }
+        ]
+    },
+
+    "ant-picnic": {
+        "title": "Ant's Picnic",
+        "description": "Pieced ants circle watermelon slices. Legs and antennas are stitched.",
+        "measurements": "49 x 49",
+        "images": [
+            {
+                "full": "/images/quilts/antPicnic.png",
+                "thumb": "/images/quilts/antPicnicThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverAntPicnic.jpg",
+                "thumb": "/images/quilts/covers/coverAntPicnicThumb.jpg"
+            }
+        ]
+    },
+
+    "marigold": {
+        "title": "Marigold",
+        "description": "Litle log cabin blocks create the marigolds inside these baskets.",
+        "measurements": "36 x 36",
+        "images": [
+            {
+                "full": "/images/quilts/marigold.png",
+                "thumb": "/images/quilts/marigoldThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverMarigold.jpg",
+                "thumb": "/images/quilts/covers/coverMarigoldThumb.jpg"
+            }
+        ]
+    },
+
+    "pumpkin-pie": {
+        "title": "Pumpkin Pie",
+        "description": "Pumpkins tumble in a field of nine-patch blocks.",
+        "measurements": "39 x 39",
+        "images": [
+            {
+                "full": "/images/quilts/pumpkinPie.png",
+                "thumb": "/images/quilts/pumpkinPieThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverPumpkinPie.jpg",
+                "thumb": "/images/quilts/covers/coverPumpkinPieThumb.jpg"
+            }
+        ]
+    },
+
+    "halloween": {
+        "title": "Halloween Hats",
+        "description": "Three dimensional witch hats (folded and stitched) surrounded by candy corn.",
+        "measurements": "44 x 44",
+        "images": [
+            {
+                "full": "/images/quilts/halloween.png",
+                "thumb": "/images/quilts/halloweenThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverHalloween.jpg",
+                "thumb": "/images/quilts/covers/coverHalloweenThumb.jpg"
+            }
+        ]
     }
 }
