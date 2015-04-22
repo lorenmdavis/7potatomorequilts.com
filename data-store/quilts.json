@@ -461,5 +461,21 @@
                 "thumb": "/images/quilts/covers/coverHalloweenThumb.jpg"
             }
         ]
+    },
+
+    "catalina": {
+        "title": "Catalina Tiles",
+        "description": "A charm pack makes this a quick easy quilt.",
+        "measurements": "42 x 50",
+        "images": [
+            {
+                "full": "/images/quilts/catalina.png",
+                "thumb": "/images/quilts/catalinaThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverCatalina.jpg",
+                "thumb": "/images/quilts/covers/coverCatalinaThumb.jpg"
+            }
+        ]
     }
 }
