@@ -136,28 +136,6 @@ a:hover{
 .nav-container{
   margin:0;
 }
-/*Dropdown Menu
-.dropdown-menu{
-  font:18px 'Crete Round', serif;
-  background-color:wheat;
-  border:none;
-}
-.dropdown-menu>li>a{
-  font:18px 'Crete Round', serif;
-  background-color:wheat;
-  border:none;
-}
-.dropdown-menu>li>a:hover{
-  background-color:tan;
-}
-.dropdown-menu>.divider{
-  border:1px darkRed dashed;
-  background-color: wheat;
-}
-.navbar-nav.open>a:focus{
-  background-color:green;
-}*/
-
 .navbar-inverse .navbar-toggle .icon-bar{
   background-color:black;
 }
@@ -219,18 +197,20 @@ a:hover{
   font:bold 56px 'Amatic SC', serif;
   font-size:7vw;
 }
-#pg-link {
+#pg-link{
   font:16px 'Crete Round', serif;
   font-size:4vw;
   color:white;
   text-shadow: 1px 1px 2px black;
   text-decoration:none;
 }
-
-#pg-link:hover{
+#pg-link:visited { color: white }
+#pg-link:hover {
   color:white;
   text-shadow: 1px 1px 2px darkRed;
 }
+#pg-link:active { color: white }
+
 .pebble-feature {
   font:11px 'Crete Round', serif;
   font-size:3vw;
@@ -253,18 +233,24 @@ height:300px;
 background-color:#4A2800;
 }
 
-.carousel-caption {
-  font:18px 'Crete Round', serif;
+.carousel-caption{
+  font:14px 'Crete Round', serif;
+  font-size:3vw;
   color:white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px black, 0 0 0.2em black;
   text-decoration:none;
   padding:0;
 }
 
-.carousel-caption :hover{
-  color:white;
-  text-shadow: 1px 1px 2px darkRed;
-}
+.carousel-caption:visited,
+.carousel-caption:active {
+  color: white;
+  }
+.carousel-caption:hover {
+  color: wheat;
+  text-decoration:none;}
+
+
 
 /*Quilt Thumbnails*/
 .section-title{
@@ -272,7 +258,7 @@ background-color:#4A2800;
   font-size:50px;
   text-align:center;
   text-transform:uppercase;
-  font-weight:500;
+  font-weight:800;
   color:#4A2800;
 }
 .thumbnail{
