@@ -194,8 +194,8 @@ a:hover{
   text-shadow: 1px 1px 2px black;
 }
 .pebble-title {
-  font:bold 56px 'Amatic SC', serif;
-  font-size:7vw;
+  font:bold 52px 'Amatic SC', serif;
+  font-size:5vw;
 }
 #pg-link{
   font:16px 'Crete Round', serif;
@@ -218,6 +218,23 @@ a:hover{
   color:black;
   text-shadow:none;
 }
+.kits {
+  font:19px 'Crete Round', serif;
+  font-size:2vw;
+  letter-spacing:1px;
+  color:white;
+  text-shadow:none;
+  text-transform:small-caps;
+}
+.kits:visited,
+.kits:active {
+  color: white;
+  }
+.kits:hover {
+  color: darkRed;
+  text-decoration:none;
+}
+
 .carousel-02 {
 background: url('images/carousel02.jpg') no-repeat;
 background-size: cover;
@@ -241,14 +258,14 @@ background-color:#4A2800;
   text-decoration:none;
   padding:0;
 }
-
 .carousel-caption:visited,
 .carousel-caption:active {
   color: white;
-  }
+}
 .carousel-caption:hover {
   color: wheat;
-  text-decoration:none;}
+  text-decoration:none;
+}
 
 
 
@@ -415,6 +432,18 @@ display:inline-block;
   width:300px;
   height:307px;
   margin:10px auto;
+}
+/*GCQ Info*/
+.bold {
+  font-weight:bold;
+}
+
+.spm-contact .gcq-image {
+  background-image:url('images/gcq.jpg');
+  background-size: cover;
+  background-position: 0% 50%;
+  height:350px;
+  margin-right:20px;
 }
 
 /*Individual Quilt Page*/
