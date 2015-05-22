@@ -477,5 +477,37 @@
                 "thumb": "/images/quilts/covers/coverCatalinaThumb.jpg"
             }
         ]
+    },
+
+    "hunter": {
+        "title": "Hunter's Star",
+        "description": "Three charm packs make this Hunter's star quickly from half-square triangles.",
+        "measurements": "48 x 57",
+        "images": [
+            {
+                "full": "/images/quilts/hunter.png",
+                "thumb": "/images/quilts/hunterThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverHunter.jpg",
+                "thumb": "/images/quilts/covers/coverHunterThumb.jpg"
+            }
+        ]
+    },
+
+    "heart-strings": {
+        "title": "Heart Strings",
+        "description": "Ribbons twist around rows of hearts.",
+        "measurements": "58 x 72",
+        "images": [
+            {
+                "full": "/images/quilts/heartStrings.png",
+                "thumb": "/images/quilts/heartStringsThumb.png"
+            },
+            {
+                "full": "/images/quilts/covers/coverHeartStrings.jpg",
+                "thumb": "/images/quilts/covers/coverHeartStringsThumb.jpg"
+            }
+        ]
     }
 }
