@@ -24,7 +24,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -49,7 +48,6 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-
 /* Write your CSS styles here */
 body {
  background:#F5DEB3;
@@ -67,7 +65,6 @@ a:hover{
   color:black;
   text-decoration:none;
 }
-
 /*Header*/
 .page-header {
   background-color:rgba(74,40,0,1.0);
@@ -114,7 +111,6 @@ a:hover{
   border-radius: 5px;
   color:white;
 }
-
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus,
@@ -122,13 +118,11 @@ a:hover{
   background-color:darkRed;
   border-radius: 5px;
 }
-
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus{
   color:white;
 }
-
 .navbar-collapse{
   padding:0px;
   border:none;
@@ -217,7 +211,36 @@ a:hover{
   letter-spacing:1px;
   color:black;
   text-shadow:none;
+  text-decoration: none;
 }
+.issue-number {
+  font:11px 'Crete Round', serif;
+  font-size:3vw;
+  letter-spacing:1px;
+  color:black;
+  text-shadow:none;
+  text-decoration: none;
+}
+.issue-number a:link, a:visited, a:focus, a:active{
+  color:black;
+  text-decoration: none;
+}
+/*.issue-number a:visited{
+  color:black;
+  text-decoration: none;
+}*/
+.issue-number a:hover{
+  color:darkRed;
+  text-decoration: none;
+}/*
+.issue-number a:focus{
+  color:black;
+  text-decoration: none;
+}
+.issue-number a:active{
+  color:black;
+  text-decoration: none;
+}*/
 .kits {
   font:19px 'Crete Round', serif;
   font-size:2vw;
@@ -225,10 +248,12 @@ a:hover{
   color:white;
   text-shadow: 1px 1px 2px black;
   text-transform:small-caps;
+  text-decoration:none;
 }
 .kits:visited,
 .kits:active {
   color: white;
+  text-decoration:none;
   }
 .kits:hover {
   color: darkRed;
@@ -250,7 +275,21 @@ background-position: top;
 height:300px;
 background-color:#4A2800;
 }
-
+.carousel-maple {
+  height:300px;
+  width:100%;
+  background-color:tan;
+  background: url('images/mapleLeafQuilt.png') no-repeat;
+  background-size: 100%;
+}
+.slide-maple-img {
+  background: url('images/mapleLeafChair.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 100% 20%;
+  height:300px;
+  width:100%;
+  background-color:#4A2800;
+}
 .carousel-caption{
   font:14px 'Crete Round', serif;
   font-size:3vw;
