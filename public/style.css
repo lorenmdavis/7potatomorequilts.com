@@ -306,9 +306,6 @@ background-color:#4A2800;
   color: wheat;
   text-decoration:none;
 }
-
-
-
 /*Quilt Thumbnails*/
 .section-title{
   font-family: 'Amatic SC', cursive;
@@ -362,14 +359,15 @@ a.thumbnail:hover{
  padding-top:10px;
  text-align:center;
 }
-.ft-link {
+a.ft-link{
   font-family: 'Amatic SC', cursive;
   padding: 0 10px;
   font-size:40px;
   text-decoration:none;
   color:wheat;
 }
-.ft-link:hover {
+
+a.ft-link:hover{
   text-decoration:none;
   color:white;
 }
@@ -481,11 +479,73 @@ display:inline-block;
   height:307px;
   margin:10px auto;
 }
+/* Featured Designs*/
+.press-title {
+  font-family: 'Crete Round', serif;
+  color:darkRed;
+  font-size:28px;
+  text-align:center;
+  border-bottom:dashed 2px tan;
+  background-color: wheat;
+}
+.feature-photo-pb {
+  background-image:url('images/feature-pb.png');
+  background-size: cover;
+  width:500px;
+  height:300px;
+  margin:10px auto;
+}
+.feature-photo-maple {
+  background-image:url('images/feature-maple.png');
+  border-radius:10px;
+  background-size: cover;
+  width:500px;
+  height:300px;
+  margin:10px auto;
+}
+.press-bg{
+  text-decoration:none;
+  text-align:left;
+  margin:10px;
+  padding:10px;
+}
+.press-text {
+  margin:30px;
+}
+.mag-title{
+  font-family: 'Crete Round', serif;
+  font-size:28px;
+  color:darkRed;
+  text-align: center;
+}
+.mag-issue{
+  font-family: 'Crete Round', serif;
+  font-size:24px;
+  color:darkRed;
+  text-align: center;
+}
+.mag-bg{
+  width:100%;
+  height:100%;
+  background-color:papayaWhip;
+  border-radius:10px;
+}
+.mag-quilt{
+  font-family: 'Crete Round', serif;
+  font-size:24px;
+  text-align: left;
+  color:#4A2800;
+}
+a.link-to-pg{
+ font-family: 'Crete Round', serif;
+ color:darkRed;
+ font-size:18px;
+ padding:0px;
+}
 /*GCQ Info*/
 .bold {
   font-weight:bold;
 }
-
 .spm-contact .gcq-image {
   background-image:url('images/gcq.jpg');
   background-size: cover;
