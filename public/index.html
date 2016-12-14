@@ -1,188 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <title>Seven Potato More Quilts</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/favicon.ico" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale=1.0>
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-
-
-
-  <meta name="p:domain_verify" content="6219e403cee8c1dda22cec2f023737ba"/>
-
+<title>Seven Potato More Quilts</title>
 </head>
+
 <body>
 
-<!--Top of Page-->
-<div class="page-header"></div>
-<div class='header-dash'></div>
+<div class="homeBody">
 
-<!--bootly nav-->
-
-<nav class="navbar navbar-inverse spm-nav" role="navigation">
-  <div class="container nav-container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a href="/index.html"><img class='spm-logo'src='images/spmLogo.jpg'/></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav links">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/patterns.html">Patterns</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--end bootly nav-->
-<!--End Top of Page-->
-
-<!--Carousel-->
-<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-  <div class="carousel-inner">
-
-    <div class="item carousel-01"><!-- class of active since it's the first item -->
-      <div class='row'>
-
-        <!--Text on left-->
-        <div class='col-md-7 col-sm-5 pebble-text'>
-          <div class="pebble-title">Pebble Beach</div>
-          <div class="pebble-feature">FEATURED IN  </br>
-              <a href="http://www.primitivequiltsandprojects.com/" target="_blank" id="pg-link">Primitive Quilts &amp; Projects</a>
-              <div class="issue-number"><a href="http://www.primitivequiltsandprojects.com/shop/product/summer-2015/" target="_blank">Summer 2015</a></div>
-              <a href="/gcq.html" class="kits">KITS AVAILABLE AT Grand Country Quilters</a>
-          </div>
-        </div>
-        <!--Image on right-->
-        <div class='col-md-5 col-sm-7'>
-          <div class="slide-01-img"></div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="item carousel-02">
-      <div >
-        <a class="carousel-caption" href="/patterns.html">Mock Log Cabin</a>
-      </div>
-    </div>
-
-
-      <div class="item carousel-03">
-        <div>
-        <a class="carousel-caption" href="/quilts/ant-picnic">Ant's Picnic</a>
-        </div>
-    </div>
-
-    <!--Maple Leaf Ragged-->
-    <div class="item active carousel-maple">
-      <div class='row'>
-        <!--Text on left-->
-        <div class='col-md-7 col-sm-5 pebble-text'>
-          <div class="pebble-title">Maple Leaf Ragged</div>
-          <div class="pebble-feature">FEATURED IN  </br>
-              <a href="http://www.primitivequiltsandprojects.com/" target="_blank" id="pg-link">Primitive Quilts &amp; Projects</a>
-              <div class="issue-number"><a href="http://www.primitivequiltsandprojects.com/shop/product/fall-2015/" target="_blank">Fall 2015</a></div>
-              <a href="/gcq.html" target="_blank" class="kits">KITS AVAILABLE AT Grand Country Quilters</a>
-          </div>
-        </div>
-        <!--Image on right-->
-        <div class='col-md-5 col-sm-7'>
-          <div class="slide-maple-img"></div>
-        </div>
-
-      </div>
-    </div>
-    <!--END Maple Leaf Ragged-->
-
-  </div><!-- /.carousel-inner -->
-  <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-    <a class="carousel-control left next-gradient" href="#this-carousel-id" data-slide="prev">
-      <div class="arrow-previous"></div>
-    </a>
-
-    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">
-      <div class="arrow-next"></div>
-    </a>
+<!--Logo-->
+<div class="logoSection">
+  <a href="index.html"><img class="logoSmall" src="images/home/spmLogoSmall.png"/></a>
+  <a href="index.html"><img class="logoLarge" src="images/home/spmLogo.png"/></a>
 </div>
-<!--End Carosel-->
 
-<!--Start Jumbotron
-<div class="jumbotron slideshow"></div>
-End Jumbotron-->
+<!--Jumbotron-->
+<div class="jumbotron">
+    <div class="jumbotronImg"></div>
+    <div class="jumbotronLabel">
+      <p>Mock Log Cabin</p>
 
-  <div class='row'>
-    <div class='col-md-12'>
-      <p class="section-title">Featured Patterns</p>
     </div>
+</div>
+
+<!--Intro Paragraph-->
+<div class="homeIntro">
+    <p>Newest Designs </p>
+</div>
+
+<!--Feature Section-->
+<section class="featureWrapper">
+
+  <a href="pages/patterns.html">
+    <div class="feature01">
+      <img src="images/patterns/maple.png">
+      <h2 class="featureTitle">Maple Leaves</h2>
+    </div>
+  </a>
+
+  <a href="pages/patterns.html">
+    <div class="feature02">
+        <img src="images/patterns/snowflake.png">
+        <h2 class="featureTitle">Snowflake</h2>
+    </div>
+  </a>
+
+  <a href="pages/patterns.html">
+    <div class="feature03">
+        <img src="images/patterns/pumpkinPie.png">
+        <h2 class="featureTitle">Pumpkin Pie</h2>
+    </div>
+  </a>
+
+</section>
+</div><!--End Logo thru feature section-->
+<!--Navigation-->
+
+  <div class="hamburger">
+    <a href="#mobileNav"><img src="images/home/hamburger.png"></a>
   </div>
 
-
-   <div class="row quilt-blocks">
-    <div class="col-md-4">
-      <a href="/quilts/sunflower" class="thumbnail">
-        <p class="quilt-title">Sunflowers</p>
-        <img class="quilt-photo" src="images/quilts/sunflower.png" alt="Sunflower Quilt">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="/quilts/starburst" class="thumbnail">
-        <p class="quilt-title">Starburst Quilt</p>
-        <img class="quilt-photo" src="images/quilts/starburst.png" alt="Moustiers Sainte Marie">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="/quilts/turkey" class="thumbnail">
-        <p class="quilt-title">Turkey Feathers</p>
-        <img class="quilt-photo" src="images/quilts/turkey.png" alt="Dresden Turkey Quilt">
-      </a>
-    </div>
-  </div>
-
-  <div class='row'>
-    <div class='col-md-12'>
-      <p class='more'>
-        <a href="/patterns.html">more patterns here</a></p>
-    </div>
-  </div>
+  <nav class="navWrapper" id="mobileNav">
+    <ul class="navPatterns">
+      <li><a href="pages/patterns.html">Patterns</a></li>
+      <li><a href="pages/press.html">Press</a></li>
+      <li><a href="pages/calendar.html">Calendar</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+      <li><a href="pages/about.html">About</a></li>
+      <li class="homeLink"><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
 
 <!--Footer-->
 <footer>
-
-   <div class="row footer">
-     <div class="col-md-12">
-       <a class="ft-link" href='/index.html'>Home</a>
-       <a class="ft-link" href='/patterns.html'>Patterns</a>
-       <a class="ft-link" href='/about.html'>About</a>
-       <a class="ft-link" href='/contact.html'>Contact</a>
-       <a href="https://www.pinterest.com/sevenpotatomore/" target="_blank"><div class="pin"></div></a>
-       <a href="https://www.facebook.com/pages/Seven-Potato-More-Quilt-Company/353442524861828?sk=info&tab=page_info&section=web_address&view" target="_blank"><div class="fb"></div></a>
-     </div>
-   </div>
-
-  <div class="row footer ft-copyright">
-    <div class="col-md-12">
-      <p>©2015 Karen Wittmeyer</p>
-    </div>
+  <div class="footerText">
+    	&copy;	2016 Seven Potato More
   </div>
-
 </footer>
-<!--End Footer-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
