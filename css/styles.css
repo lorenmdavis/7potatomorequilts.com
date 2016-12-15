@@ -91,7 +91,7 @@ a{ text-decoration: none; }
 .hamburger{
 	height: 40px;
 	width: 40px;
-	padding-top: 3px;
+	padding-top: 1%;
 	position: absolute;
 	top:1%;
 	right: 2%;
@@ -107,7 +107,7 @@ ul li{ list-style-type: none; }
 	color: #000;
 	display: block;
 	font-size: 1.5rem;
-	letter-spacing: 1px;
+	letter-spacing: .125em;
 	margin:2% 0;
 	padding: 1%;
 	text-decoration: none;
@@ -139,7 +139,7 @@ ul li{ list-style-type: none; }
 .jumbotronLabel p{
 	color:#fff;
 	font-weight: 400;
-	letter-spacing: 2px;
+	letter-spacing: 0.125em;
 	padding: 5px;
 	text-align: center;
 	text-transform: uppercase;
@@ -174,7 +174,7 @@ img{
 }
 .featureTitle{
 	color: white;
-	letter-spacing: 2px;
+	letter-spacing: .125em;
   font-size: 1.5rem;
 	padding-top: 2%;
   text-align: center;
